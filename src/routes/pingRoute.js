@@ -1,7 +1,7 @@
 import express from 'express';
 
-export const pingRouter = express.Router();
+export const pingRoute = express.Router();
 
-pingRouter.get('/', (_req, res) => {
+pingRoute.get('/', (_req, res) => {
   res.send('Dogshouseservice.Version1.0.1');
 });

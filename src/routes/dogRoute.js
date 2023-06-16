@@ -1,6 +1,6 @@
 import express from 'express';
 import * as dogsController from '../controllers/dogsController.js';
 
-export const dogRouter = express.Router();
+export const dogRoute = express.Router();
 
-dogRouter.post('/', dogsController.createDogController);
+dogRoute.post('/', dogsController.createDogController);

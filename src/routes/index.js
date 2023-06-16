@@ -1,3 +1,3 @@
-export * from './dogRouter.js';
-export * from './dogsRouter.js';
-export * from './pingRouter.js';
+export * from './dogRoute.js';
+export * from './dogsRoute.js';
+export * from './pingRoute.js';
