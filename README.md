@@ -193,7 +193,7 @@ Dog House Service.Version1.0.1
 
 ``` bash
 {
-  "error": "Invalid tail length value"
+  "error": "Invalid tail length value. It must be a positive number"
 }
 ```
 
@@ -202,7 +202,7 @@ Dog House Service.Version1.0.1
 
 ``` bash
 {
-  "error": "Invalid weight value"
+  "error": "Invalid weight value. It must be a positive number"
 }
 ```
 
@@ -212,8 +212,7 @@ Dog House Service.Version1.0.1
 
 ``` bash
 {
-  "error": "A dog with the same name already exists"
-}
+  "error": `A dog with the name ${name} already exists`
 ```
 
 - 500 Internal Server Error
