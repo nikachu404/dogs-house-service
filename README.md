@@ -17,7 +17,7 @@
  - Prettier
 
 
-<h2 align="center">🧙‍♂️Getting started🧙‍♂️</h2>
+<h2 align="center">🚀Getting started🚀</h2>
 
 To run the Dog House Service, you need to follow these steps:
 
@@ -53,7 +53,7 @@ npm run start:local
 
 Now you can access the Dog House Service API at http://localhost:3000.
 
-<h2 align="center">API Endpoints</h2>
+<h2 align="center">📌API Endpoints📌</h2>
 
 ***/dogs Endpoint***
 
@@ -69,7 +69,7 @@ Query Parameters:
 - pageNumber (optional, works with pageSize): The page number to retrieve.
 - pageSize (optional, works with pageNumber): The number of dogs per page.
 
-<p>Response:</p>
+<p>Response body:</p>
 
 - Success (200 OK):
 
@@ -111,7 +111,7 @@ Request Body:
   "weight": 22
 }
 ```
-<p>Response:</p>
+<p>Response body:</p>
 
 - Success (201 Created):
 
@@ -129,6 +129,7 @@ Request Body:
 ***/dog Endpoint***
 
 <p>Creates a new dog in the dog house:</p>
+
 ```bash
 POST /dog
 ```
@@ -144,7 +145,7 @@ Request Body:
 }
 ```
 
-<p>Response:</p>
+<p>Response body:</p>
 
 - Success (201 Created):
 
@@ -167,7 +168,7 @@ Request Body:
 GET /ping
 ```
 
-<p>Response:</p>
+<p>Response body:</p>
 
 - Success (200 OK):
 
@@ -175,7 +176,7 @@ GET /ping
 Dog House Service.Version1.0.1
 ```
 
-<h2>Error Handling</h2>
+<h2 align="center">🔧Error Handling🔧</h2>
 
 - 400 Bad Request
 
