@@ -62,12 +62,14 @@ export const createDogController = async (req, res) => {
     if (error.message === 'A dog with the same name already exists') {
       return res.status(409).json({ error: error.message });
     }
+
     if (
       error.message === 'Invalid tail length value' ||
       error.message === 'Invalid weight value'
     ) {
       return res.status(400).json({ error: error.message });
     }
+
     res.status(500).json({ error: 'Internal server error' });
   }
 };
