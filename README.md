@@ -1,4 +1,4 @@
-<h1 align="center">🐶Dog House Service Test Task🐶</h1>
+<h1 align="center">🐶Dogs House Service Test Task🐶</h1>
 
 - [✨DEMO✨](https://www.loom.com/share/b21360192a5c4f4f88db23a5c54a6ee8?sid=5b45be4f-4692-4bfd-8a3d-976494aa15c2)
 - [✏️TASK✏️](https://docs.google.com/document/d/1K8W7O7YKX38-qAt9g1mddOi5td4ZI1q0zk1J42BNm-M/edit?usp=sharing)
@@ -96,35 +96,6 @@ Query Parameters:
   ]
 }
 ```
-
-<h3>Creates a new dog in the dog house:</h3>
-
-```bash
-POST /dogs
-```
-
-Request Body:
-```bash
-{
-  "name": "Max",
-  "color": "black",
-  "tailLength": 12,
-  "weight": 22
-}
-```
-<p>Response body:</p>
-
-- Success (201 Created):
-
-``` bash
-{
-  "name": "Max",
-  "color": "black",
-  "tailLength": 12,
-  "weight": 22
-}
-```
-
 ---
 
 ***/dog Endpoint***
